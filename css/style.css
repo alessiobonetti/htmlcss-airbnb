@@ -7,19 +7,29 @@ padding: 0;
 .city {
   position: relative;
   height: 100vh;
-  width: 97vw;
+  width: calc(100%-10px);
   background-size: cover;
   margin: 5px;
 }
 
 .layer {
-  position:absolute;
+  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 
+}
+
+.city_name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
 }
 
 #sydney {
