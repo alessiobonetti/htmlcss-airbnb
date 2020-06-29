@@ -1,0 +1,25 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.city {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  margin: 5px;
+}
+
+#sydney {
+  background-image: url(../img/sydney.jpg);
+}
+
+#auckland {
+  background-image: url(../img/auckland.jpg);
+}
+
+#cairns {
+  background-image: url(../img/cairns.jpg);
+}
